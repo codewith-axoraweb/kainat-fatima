@@ -9,13 +9,13 @@ import { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Aisha Raouf's Services - Best Content Writing & SEO Copywriting",
   description:
-    "Hire Aisha Raouffor top content writing services in Lahore, Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
+    "Hire Aisha Raouffor top content writing services in Dunyapur, Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
   keywords: [
     "best content writing services",
-    "content writing services in Lahore, Pakistan",
-    "article writing services in Lahore, Pakistan",
+    "content writing services in Dunyapur, Pakistan",
+    "article writing services in Dunyapur, Pakistan",
     "content writing agency",
-    "best SEO content writer in Lahore, Pakistan",
+    "best SEO content writer in Dunyapur, Pakistan",
     "freelance content writer",
     "SEO copywriting",
     "blog writing services",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Aisha Raouf" }],
   openGraph: {
-    title: "Aisha Raouf's Services - Best Content Writing & SEO in Lahore, Pakistan",
+    title: "Aisha Raouf's Services - Best Content Writing & SEO in Dunyapur, Pakistan",
     description:
-      "Aisha Raoufoffers expert content writing services in Lahore, Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
+      "Aisha Raoufoffers expert content writing services in Dunyapur, Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
     type: "website",
     url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
     images: [
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Aisha Raouf's Services - Best Content Writing & SEO",
     description:
-      "Hire Aisha Raouffor professional content writing, SEO content, and blog writing services in Lahore, Pakistan and beyond.",
+      "Hire Aisha Raouffor professional content writing, SEO content, and blog writing services in Dunyapur, Pakistan and beyond.",
     images: ["/services-og-image.jpg"], // Replace with your actual image
   },
   alternates: {
@@ -75,9 +75,9 @@ export const metadata: Metadata = {
         "https://twitter.com/Aisha Raouf", // Replace with your actual Twitter
       ],
       description:
-        "Aisha Raoufprovides top content writing services in Lahore, Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
+        "Aisha Raoufprovides top content writing services in Dunyapur, Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
       areaServed: [
-        "Lahore, Pakistan",
+        "Dunyapur, Pakistan",
         "Karachi",
         "USA",
         "Dubai",

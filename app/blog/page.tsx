@@ -12,14 +12,14 @@ import {Metadata} from "next"
 export const metadata: Metadata = {
   title: "Aisha Raouf's Blog - Best Content Writing Tips & SEO Insights",
   description:
-    "Explore Aisha Raouf's blog for expert tips on content writing, SEO content, and blog writing from Lahore, Pakistan's top writer.",
+    "Explore Aisha Raouf's blog for expert tips on content writing, SEO content, and blog writing from Dunyapur, Pakistan's top writer.",
   keywords: [
     "Aisha Raoufblog",
     "best content writing services",
-    "content writing services in Lahore, Pakistan",
-    "article writing services in Lahore, Pakistan",
+    "content writing services in Dunyapur, Pakistan",
+    "article writing services in Dunyapur, Pakistan",
     "content writing agency",
-    "best SEO content writer in Lahore, Pakistan",
+    "best SEO content writer in Dunyapur, Pakistan",
     "freelance content writer",
     "SEO copywriting",
     "blog writing services",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Aisha Raouf" }],
   openGraph: {
     title: "Aisha Raouf's Blog - Content Writing Tips & SEO Insights",
-    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from Aisha Raouf, a top writer in Lahore, Pakistan.",
+    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from Aisha Raouf, a top writer in Dunyapur, Pakistan.",
     type: "website",
     url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
     images: [
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Aisha Raouf's Blog - Content Writing & SEO Tips",
     description:
-      "Read Aisha Raouf's blog for top content writing, SEO, and blog writing tips from Lahore, Pakistan to USA, Dubai, and Australia.",
+      "Read Aisha Raouf's blog for top content writing, SEO, and blog writing tips from Dunyapur, Pakistan to USA, Dubai, and Australia.",
     images: ["/bBiography.webp"], // Replace with your actual image
   },
   alternates: {
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
         "https://wa.me/+923181463435", // Replace with your actual WhatsApp number
       ],
       description:
-        "Aisha Raouf's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Lahore, Pakistan, Karachi, USA, Dubai, Australia, and UK.",
+        "Aisha Raouf's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Dunyapur, Pakistan, Karachi, USA, Dubai, Australia, and UK.",
     }),
   },
 };

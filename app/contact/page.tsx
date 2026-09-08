@@ -165,7 +165,7 @@ export default function ContactPage() {
 
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">Lahore, Pakistan</p>
+                    <p className="text-muted-foreground">Dunyapur, Pakistan</p>
                   </div>
                 </div>
               </CardContent>
@@ -221,21 +221,21 @@ export default function ContactPage() {
 
             <CardContent className="p-0">
               <div className="overflow-hidden rounded-b-lg">
-                <iframe
-                  src="https://www.google.com/maps?q=Lahore, Pakistan&output=embed"
-                  width="100%"
-                  height="400"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="w-full h-96"
-                ></iframe>
+               <iframe
+  src="https://www.google.com/maps?q=Dunyapur%2C%20Pakistan&output=embed"
+  width="100%"
+  height="400"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  className="w-full h-96"
+></iframe>
               </div>
 
               <div className="p-4 text-center">
                 <p className="text-muted-foreground">
-                  Serving clients globally from Lahore, Pakistan
+                  Serving clients globally from Dunyapur, Pakistan
                 </p>
               </div>
             </CardContent>

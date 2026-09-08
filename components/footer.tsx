@@ -88,7 +88,7 @@ export function Footer() {
 </span>
               </li>
               <li>
-                <span className="text-muted-foreground">Lahore, Pakistan</span>
+                <span className="text-muted-foreground">Dunyapur, Pakistan</span>
               </li>
             </ul>
           </div>

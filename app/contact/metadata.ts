@@ -1,18 +1,18 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Aisha Raouf- Best Content Writer in Lahore, Pakistan",
+  title: "Contact Aisha Raouf- Best Content Writer in Dunyapur, Pakistan",
   description:
-    "Contact Aisha Raouffor top content writing services in Lahore, Pakistan, SEO content, and copywriting via WhatsApp or email.",
+    "Contact Aisha Raouffor top content writing services in Dunyapur, Pakistan, SEO content, and copywriting via WhatsApp or email.",
   keywords: [
     "content writer Karachi contact number",
     "content writer Karachi contact number WhatsApp",
     "best content writer Karachi contact number",
     "best content writing services",
-    "content writing services in Lahore, Pakistan",
-    "article writing services in Lahore, Pakistan",
+    "content writing services in Dunyapur, Pakistan",
+    "article writing services in Dunyapur, Pakistan",
     "content writing agency",
-    "best SEO content writer in Lahore, Pakistan",
+    "best SEO content writer in Dunyapur, Pakistan",
     "freelance content writer",
     "SEO copywriting",
     "blog writing services",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Aisha Raouf" }],
   openGraph: {
-    title: "Contact Aisha Raouf- Best Content Writer in Lahore, Pakistan",
+    title: "Contact Aisha Raouf- Best Content Writer in Dunyapur, Pakistan",
     description:
-      "Reach Aisha Raouffor expert content writing services, SEO content, and copywriting in Lahore, Pakistan via WhatsApp or email.",
+      "Reach Aisha Raouffor expert content writing services, SEO content, and copywriting in Dunyapur, Pakistan via WhatsApp or email.",
     type: "website",
     url: "https://yourwebsite.com/contact",
     images: [
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact Aisha Raouf- Content Writing Services",
     description:
-      "Get in touch with Aisha Raouffor SEO content, blog writing, and copywriting services in Lahore, Pakistan, USA, and Dubai.",
+      "Get in touch with Aisha Raouffor SEO content, blog writing, and copywriting services in Dunyapur, Pakistan, USA, and Dubai.",
     images: ["/contact-og-image.jpg"],
   },
   alternates: {
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
           "@type": "ContactPoint",
           telephone: "yourphonenumber",
           contactType: "Customer Service",
-          areaServed: ["Lahore, Pakistan", "Karachi", "USA", "Dubai", "Australia", "UK"],
+          areaServed: ["Dunyapur, Pakistan", "Karachi", "USA", "Dubai", "Australia", "UK"],
           availableLanguage: ["English"],
         },
         {
@@ -89,11 +89,11 @@ export const metadata: Metadata = {
           contactType: "Customer Service",
           url: "https://wa.me/yourwhatsappnumber",
           contactOption: "WhatsApp",
-          areaServed: ["Lahore, Pakistan", "Karachi"],
+          areaServed: ["Dunyapur, Pakistan", "Karachi"],
         },
       ],
       description:
-        "Contact Aisha Raouf, a top content writer in Lahore, Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
+        "Contact Aisha Raouf, a top content writer in Dunyapur, Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
     }),
   },
 }
