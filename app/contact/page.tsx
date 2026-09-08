@@ -78,7 +78,7 @@ export default function ContactPage() {
   const whatsappNumber = "923314043458";
 
   const whatsappMessage = encodeURIComponent(
-    "Hello ayesha, I would like to discuss a content writing project with you."
+    "Hello rida, I would like to discuss a content writing project with you."
   );
 
   return (
