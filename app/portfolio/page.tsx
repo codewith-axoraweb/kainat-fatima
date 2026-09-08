@@ -142,6 +142,33 @@ const projects = [
       "https://medium.com/cub3d/with-bitcoins-fall-what-will-be-the-next-significant-trend-a097eb572840",
     featured: true,
   },
+  {
+  id: 5,
+  title: "Life Without Principle",
+  description:
+    "A reflective literary analysis inspired by Henry David Thoreau's Life Without Principle, exploring meaningful work, the pursuit of money, personal values, and the importance of living a purposeful life beyond material success.",
+  image:
+    "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80",
+  category: "Blogs",
+  technologies: ["Literary Writing", "Research Writing", "Critical Analysis"],
+  liveUrl:
+    "https://docs.google.com/document/d/1-rgL5K4uMAEmv4htJtwhLIgUvX5V5bYYFOtdijkXSfQ/edit?tab=t.0",
+  featured: true,
+},
+
+  {
+    id: 6,
+    title: "Implementation of Employee Suggestion Program: A Case Study of a Middle East Healthcare Service Company",
+    description:
+      "A detailed case study examining employee suggestion programs in healthcare, focusing on innovation, employee participation, continuous improvement, leadership, evaluation, and better healthcare service delivery.",
+    image:
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+    category: "Blogs",
+    technologies: ["Case Study", "Healthcare Writing", "Research Writing"],
+    liveUrl:
+      "https://docs.google.com/document/d/10VddxDhp1qZq_YzfpfKtj7Pcx4x2UFIkn9MCNQ6kgOg/edit?tab=t.0",
+    featured: true,
+  },
 ];
 
 export default function PortfolioPage() {
