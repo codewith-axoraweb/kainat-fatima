@@ -92,7 +92,7 @@ export default function AboutPage() {
         <section className="text-center mb-16">
           <div className="relative w-32 h-32 mx-auto mb-6">
             <Image
-              src="/about.png"
+              src="/helo.jpeg"
               alt="Ayesha Raouf"
               fill
               className="rounded-full border-4 border-primary/20"
