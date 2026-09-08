@@ -43,7 +43,7 @@ export default function HomePage() {
             <div className="space-y-6 sm:space-y-8">
               <div className="space-y-4">
                 <Badge variant="outline" className="w-fit max-w-full text-left whitespace-normal">
-                  Available for freelance writing projects
+                  I am available for remote positions, freelance projects and contract work
                 </Badge>
 
                 <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight break-words">
