@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Rida Nadeem- Best Content Writer in Lahore, Pakistan",
+  title: "Contact Aisha Raouf- Best Content Writer in Lahore, Pakistan",
   description:
-    "Contact Rida Nadeemfor top content writing services in Lahore, Pakistan, SEO content, and copywriting via WhatsApp or email.",
+    "Contact Aisha Raouffor top content writing services in Lahore, Pakistan, SEO content, and copywriting via WhatsApp or email.",
   keywords: [
     "content writer Karachi contact number",
     "content writer Karachi contact number WhatsApp",
@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "freelance content writer near me",
   ],
-  authors: [{ name: "Rida Nadeem" }],
+  authors: [{ name: "Aisha Raouf" }],
   openGraph: {
-    title: "Contact Rida Nadeem- Best Content Writer in Lahore, Pakistan",
+    title: "Contact Aisha Raouf- Best Content Writer in Lahore, Pakistan",
     description:
-      "Reach Rida Nadeemfor expert content writing services, SEO content, and copywriting in Lahore, Pakistan via WhatsApp or email.",
+      "Reach Aisha Raouffor expert content writing services, SEO content, and copywriting in Lahore, Pakistan via WhatsApp or email.",
     type: "website",
     url: "https://yourwebsite.com/contact",
     images: [
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
         url: "/contact-og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Contact Rida Nadeemfor Content Writing Services",
+        alt: "Contact Aisha Raouffor Content Writing Services",
       },
     ],
-    siteName: "Rida NadeemPortfolio",
+    siteName: "Aisha RaoufPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Rida Nadeem- Content Writing Services",
+    title: "Contact Aisha Raouf- Content Writing Services",
     description:
-      "Get in touch with Rida Nadeemfor SEO content, blog writing, and copywriting services in Lahore, Pakistan, USA, and Dubai.",
+      "Get in touch with Aisha Raouffor SEO content, blog writing, and copywriting services in Lahore, Pakistan, USA, and Dubai.",
     images: ["/contact-og-image.jpg"],
   },
   alternates: {
@@ -68,12 +68,12 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Rida Nadeem",
+      name: "Aisha Raouf",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://yourwebsite.com/contact",
       sameAs: [
-        "https://www.linkedin.com/in/Rida Nadeem",
-        "https://twitter.com/Rida Nadeem",
+        "https://www.linkedin.com/in/Aisha Raouf",
+        "https://twitter.com/Aisha Raouf",
         "https://wa.me/yourwhatsappnumber",
       ],
       contactPoint: [
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
         },
       ],
       description:
-        "Contact Rida Nadeem, a top content writer in Lahore, Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
+        "Contact Aisha Raouf, a top content writer in Lahore, Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
     }),
   },
 }

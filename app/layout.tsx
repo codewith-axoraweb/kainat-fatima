@@ -11,10 +11,10 @@ import FloatingWhatsApp from "@/components/floating-whatsapp"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Rida Nadeem - Expert Content Writer & SEO Copywriter",
+  title: "Aisha Raouf - Expert Content Writer & SEO Copywriter",
 
   description:
-    "Discover Rida Nadeem's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
+    "Discover Aisha Raouf's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
 
   keywords: [
     "content writer",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "copywriting",
     "content strategy",
     "freelance writer",
-    "Rida Nadeem portfolio",
+    "Aisha Raouf portfolio",
     "storycup",
   ],
 
@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     apple: "/anam.png",
   },
 
-  authors: [{ name: "Rida Nadeem" }],
+  authors: [{ name: "Aisha Raouf" }],
 
   openGraph: {
-    title: "Rida Nadeem - Expert Content Writer & Copywriter",
+    title: "Aisha Raouf - Expert Content Writer & Copywriter",
     description:
-      "Explore Rida Nadeem's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
+      "Explore Aisha Raouf's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
     type: "website",
     url: "https://storycup.vercel.app/",
     images: [
@@ -46,17 +46,17 @@ export const metadata: Metadata = {
         url: "/anam.png",
         width: 1200,
         height: 630,
-        alt: "Rida Nadeem Content Writing Portfolio",
+        alt: "Aisha Raouf Content Writing Portfolio",
       },
     ],
-    siteName: "Rida Nadeem Portfolio",
+    siteName: "Aisha Raouf Portfolio",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Rida Nadeem - Expert Content Writer & Copywriter",
+    title: "Aisha Raouf - Expert Content Writer & Copywriter",
     description:
-      "Explore Rida Nadeem's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
+      "Explore Aisha Raouf's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
     images: ["/anam.png"],
   },
 

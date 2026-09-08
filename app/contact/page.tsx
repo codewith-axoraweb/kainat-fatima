@@ -75,10 +75,10 @@ export default function ContactPage() {
     }
   };
 
-  const whatsappNumber = "923314043458";
+  const whatsappNumber = "923284300399";
 
   const whatsappMessage = encodeURIComponent(
-    "Hello rida, I would like to discuss a content writing project with you."
+    "Hello Ayesha, I would like to discuss a content writing project with you."
   );
 
   return (
@@ -153,7 +153,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-muted-foreground">
-                       virgo.rida24@gmail.com
+                      aisharaouf230@gmail.com
                     </p>
                   </div>
                 </div>
@@ -191,8 +191,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Chat with me</p>
                     <p className="text-muted-foreground">
-                      +92 3314043458 
-
+                      +92 3284300399
                     </p>
                   </div>
                 </a>

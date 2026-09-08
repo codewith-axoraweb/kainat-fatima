@@ -10,11 +10,11 @@ import { ExternalLink } from "lucide-react"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Rida Nadeem's Portfolio - AI Copywriting & Content Strategy",
+  title: "Aisha Raouf's Portfolio - AI Copywriting & Content Strategy",
   description:
-    "Explore Rida Nadeem's professional portfolio featuring AI-refined articles, research-based content, technical writing, blog writing, and content strategy.",
+    "Explore Aisha Raouf's professional portfolio featuring AI-refined articles, research-based content, technical writing, blog writing, and content strategy.",
   keywords: [
-    "Rida Nadeem portfolio",
+    "Aisha Raouf portfolio",
     "AI Copywriter portfolio",
     "Content Strategist portfolio",
     "AI content refinement",
@@ -30,11 +30,11 @@ export const metadata: Metadata = {
     "professional content writer",
     "bilingual writing",
   ],
-  authors: [{ name: "Rida Nadeem" }],
+  authors: [{ name: "Aisha Raouf" }],
   openGraph: {
-    title: "Rida Nadeem's Portfolio - AI Copywriting & Content Strategy",
+    title: "Aisha Raouf's Portfolio - AI Copywriting & Content Strategy",
     description:
-      "View Rida Nadeem's professional portfolio showcasing research-based articles, AI-refined content, technical writing, blog writing, and content strategy.",
+      "View Aisha Raouf's professional portfolio showcasing research-based articles, AI-refined content, technical writing, blog writing, and content strategy.",
     type: "website",
     url: "[https://storycup.vercel.app/portfolio](https://storycup.vercel.app/portfolio)",
     images: [
@@ -42,16 +42,16 @@ export const metadata: Metadata = {
         url: "/worldwideartical.jpg",
         width: 1200,
         height: 630,
-        alt: "Rida Nadeem Content Writing Portfolio",
+        alt: "Aisha Raouf Content Writing Portfolio",
       },
     ],
-    siteName: "Rida Nadeem Portfolio",
+    siteName: "Aisha Raouf Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rida Nadeem's Portfolio - AI Copywriting & Content Strategy",
+    title: "Aisha Raouf's Portfolio - AI Copywriting & Content Strategy",
     description:
-      "Discover Rida Nadeem's portfolio showcasing AI-refined content, research-based articles, technical writing, and content strategy.",
+      "Discover Aisha Raouf's portfolio showcasing AI-refined content, research-based articles, technical writing, and content strategy.",
     images: ["/worldwideartical.jpg"],
   },
   alternates: {
@@ -72,14 +72,14 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "[https://schema.org](https://schema.org)",
       "@type": "CreativeWork",
-      name: "Rida Nadeem's Content Writing Portfolio",
+      name: "Aisha Raouf's Content Writing Portfolio",
       author: {
         "@type": "Person",
-        name: "Rida Nadeem",
+        name: "Aisha Raouf",
       },
       url: "[https://storycup.vercel.app/portfolio](https://storycup.vercel.app/portfolio)",
       description:
-        "Rida Nadeem's portfolio showcases professional AI content refinement, copywriting, research-based articles, technical writing, blog writing, and content strategy.",
+        "Aisha Raouf's portfolio showcases professional AI content refinement, copywriting, research-based articles, technical writing, blog writing, and content strategy.",
     }),
   },
 }
@@ -335,7 +335,7 @@ export default function PortfolioPage() {
 
                 <Button size="lg" asChild>
                   <a
-                    href="mailto:virgo.rida24@gmail.com"
+                    href="mailto:aisharaouf230@gmail.com"
                   >
                     Contact Me
                   </a>

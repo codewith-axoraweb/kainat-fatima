@@ -10,11 +10,11 @@ import { Calendar, Clock, Search, ArrowRight } from "lucide-react"
 import {Metadata} from "next"
 
 export const metadata: Metadata = {
-  title: "Rida Nadeem's Blog - Best Content Writing Tips & SEO Insights",
+  title: "Aisha Raouf's Blog - Best Content Writing Tips & SEO Insights",
   description:
-    "Explore Rida Nadeem's blog for expert tips on content writing, SEO content, and blog writing from Lahore, Pakistan's top writer.",
+    "Explore Aisha Raouf's blog for expert tips on content writing, SEO content, and blog writing from Lahore, Pakistan's top writer.",
   keywords: [
-    "Rida Nadeemblog",
+    "Aisha Raoufblog",
     "best content writing services",
     "content writing services in Lahore, Pakistan",
     "article writing services in Lahore, Pakistan",
@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "content writer Karachi contact number",
   ],
-  authors: [{ name: "Rida Nadeem" }],
+  authors: [{ name: "Aisha Raouf" }],
   openGraph: {
-    title: "Rida Nadeem's Blog - Content Writing Tips & SEO Insights",
-    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from Rida Nadeem, a top writer in Lahore, Pakistan.",
+    title: "Aisha Raouf's Blog - Content Writing Tips & SEO Insights",
+    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from Aisha Raouf, a top writer in Lahore, Pakistan.",
     type: "website",
     url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
     images: [
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
         url: "/blog-og-image.jpg", // Replace with a relevant image for the Blog page
         width: 1200, // Fixed: Changed from 00 to 1200
         height: 630,
-        alt: "Rida NadeemBlog - Content Writing Tips",
+        alt: "Aisha RaoufBlog - Content Writing Tips",
       },
     ],
-    siteName: "Rida NadeemPortfolio",
+    siteName: "Aisha RaoufPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rida Nadeem's Blog - Content Writing & SEO Tips",
+    title: "Aisha Raouf's Blog - Content Writing & SEO Tips",
     description:
-      "Read Rida Nadeem's blog for top content writing, SEO, and blog writing tips from Lahore, Pakistan to USA, Dubai, and Australia.",
+      "Read Aisha Raouf's blog for top content writing, SEO, and blog writing tips from Lahore, Pakistan to USA, Dubai, and Australia.",
     images: ["/bBiography.webp"], // Replace with your actual image
   },
   alternates: {
@@ -76,19 +76,19 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "Rida Nadeem's Content Writing Blog",
+  name: "Aisha Raouf's Content Writing Blog",
   author: {
     "@type": "Person",
-    name: "Rida Nadeem",
+    name: "Aisha Raouf",
   },
   url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
       sameAs: [
-        "https://www.linkedin.com/in/Rida Nadeem", // Replace with your actual LinkedIn
-        "https://twitter.com/Rida Nadeem", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Aisha Raouf", // Replace with your actual LinkedIn
+        "https://twitter.com/Aisha Raouf", // Replace with your actual Twitter
         "https://wa.me/+923181463435", // Replace with your actual WhatsApp number
       ],
       description:
-        "Rida Nadeem's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Lahore, Pakistan, Karachi, USA, Dubai, Australia, and UK.",
+        "Aisha Raouf's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Lahore, Pakistan, Karachi, USA, Dubai, Australia, and UK.",
     }),
   },
 };

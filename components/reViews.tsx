@@ -21,7 +21,7 @@ const services = ["Blog Writing", "SEO Content", "Copywriting", "Website Content
 // Pre-populated 50 reviews
 const initialReviews: Review[] = [
   { id: "1", name: "John Smith", country: "USA", message: "Exceptional blog writing, captured my brand perfectly!", rating: 5, service: "Blog Writing", date: "2025-05-15", timestamp: new Date("2025-05-15").getTime() },
-  { id: "2", name: "rida Khan", country: "Lahore, Pakistan", message: "SEO content boosted our site traffic significantly.", rating: 4, service: "SEO Content", date: "2025-04-20", timestamp: new Date("2025-04-20").getTime() },
+  { id: "2", name: "aisha Khan", country: "Lahore, Pakistan", message: "SEO content boosted our site traffic significantly.", rating: 4, service: "SEO Content", date: "2025-04-20", timestamp: new Date("2025-04-20").getTime() },
   { id: "3", name: "Priya Sharma", country: "India", message: "Professional copywriting, highly engaging!", rating: 5, service: "Copywriting", date: "2025-03-10", timestamp: new Date("2025-03-10").getTime() },
   { id: "4", name: "Emma Johnson", country: "USA", message: "Website content was clear and concise.", rating: 4, service: "Website Content", date: "2025-02-25", timestamp: new Date("2025-02-25").getTime() },
   { id: "5", name: "Muhammad Ali", country: "Lahore, Pakistan", message: "Editing service polished my manuscript beautifully.", rating: 5, service: "Editing", date: "2025-01-30", timestamp: new Date("2025-01-30").getTime() },

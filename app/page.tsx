@@ -18,12 +18,12 @@ import { Footer } from "@/components/footer";
 
 export default function HomePage() {
   const handleDownloadResume = async () => {
-    const response = await fetch('/rida.pdf')
+    const response = await fetch('/aisha.pdf')
     const blob = await response.blob();
 
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.setAttribute('download', 'rida.pdf');
+    link.setAttribute('download', 'aisha.pdf');
     link.style.display = 'none';
     document.body.appendChild(link);
     link.click();
@@ -47,7 +47,7 @@ export default function HomePage() {
                 </Badge>
 
                 <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight break-words">
-                  Hi, I'm <span className="text-blue-600">Rida Nadeem</span>
+                  Hi, I'm <span className="text-blue-600">Aisha Raouf</span>
                 </h1>
 
                 <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground">
@@ -86,21 +86,27 @@ export default function HomePage() {
               <div className="flex space-x-2">
                 {/* LinkedIn */}
                 <Button size="icon" variant="ghost" asChild>
-                  <Link href="#" target="_blank">
+                  <Link
+                    href="https://www.linkedin.com/in/ayeshanlpcontentwriter"
+                    target="_blank"
+                  >
                     <Linkedin className="h-4 w-4" />
                   </Link>
                 </Button>
 
                 {/* Medium */}
                 <Button size="icon" variant="ghost" asChild>
-                  <Link href="https://medium.com/cub3d/with-bitcoins-fall-what-will-be-the-next-significant-trend-a097eb572840" target="_blank">
+                  <Link
+                    href="https://medium.com/@aisharaouf230"
+                    target="_blank"
+                  >
                     <span className="font-bold text-sm">M</span>
                   </Link>
                 </Button>
 
                 {/* Email */}
                 <Button size="icon" variant="ghost" asChild>
-                  <Link href="mailto:virgo.rida24@gmail.com">
+                  <Link href="mailto:aisharaouf230@gmail.com">
                     <Mail className="h-4 w-4" />
                   </Link>
                 </Button>
@@ -113,7 +119,7 @@ export default function HomePage() {
 
                 <Image
                   src="/contentwriterhomepage.jpeg?height=400&width=400"
-                  alt="Rida Nadeem"
+                  alt="Aisha Raouf"
                   width={400}
                   height={400}
                   className="relative rounded-full border-4 border-background shadow-2xl w-full h-auto"
@@ -147,7 +153,7 @@ export default function HomePage() {
             {/* Content */}
             <div className="space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl">
               <p>
-                I'm <span className="font-semibold text-foreground">Rida Nadeem</span>,
+                I'm <span className="font-semibold text-foreground">Aisha Raouf</span>,
                 an AI Copywriter and Content Strategist with a Computer Science
                 background, specializing in creating polished, precise, and
                 on-brand content.

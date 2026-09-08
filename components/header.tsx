@@ -31,8 +31,8 @@ export function Header() {
 {/* Logo */}
 <Link href="/" className="flex items-center shrink-0">
   <img
-    src="/rida.png"
-    alt="Rida Nadeem Logo"
+    src="/aisha.png"
+    alt="Aisha Raouf Logo"
     className="
       h-24 w-24
       sm:h-26 sm:w-26

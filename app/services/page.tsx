@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer"
 import { CheckCircle, FileText, PenLine, Search, Newspaper, MessageCircle } from "lucide-react"
 import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Rida Nadeem's Services - Best Content Writing & SEO Copywriting",
+  title: "Aisha Raouf's Services - Best Content Writing & SEO Copywriting",
   description:
-    "Hire Rida Nadeemfor top content writing services in Lahore, Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
+    "Hire Aisha Raouffor top content writing services in Lahore, Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
   keywords: [
     "best content writing services",
     "content writing services in Lahore, Pakistan",
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     "professional content writing services",
     "content writer Karachi",
   ],
-  authors: [{ name: "Rida Nadeem" }],
+  authors: [{ name: "Aisha Raouf" }],
   openGraph: {
-    title: "Rida Nadeem's Services - Best Content Writing & SEO in Lahore, Pakistan",
+    title: "Aisha Raouf's Services - Best Content Writing & SEO in Lahore, Pakistan",
     description:
-      "Rida Nadeemoffers expert content writing services in Lahore, Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
+      "Aisha Raoufoffers expert content writing services in Lahore, Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
     type: "website",
     url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
     images: [
@@ -34,16 +34,16 @@ export const metadata: Metadata = {
         url: "/services-og-image.jpg", // Replace with a relevant image for the Services page
         width: 1200,
         height: 630,
-        alt: "Rida NadeemBest Content Writing Services",
+        alt: "Aisha RaoufBest Content Writing Services",
       },
     ],
-    siteName: "Rida NadeemPortfolio",
+    siteName: "Aisha RaoufPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rida Nadeem's Services - Best Content Writing & SEO",
+    title: "Aisha Raouf's Services - Best Content Writing & SEO",
     description:
-      "Hire Rida Nadeemfor professional content writing, SEO content, and blog writing services in Lahore, Pakistan and beyond.",
+      "Hire Aisha Raouffor professional content writing, SEO content, and blog writing services in Lahore, Pakistan and beyond.",
     images: ["/services-og-image.jpg"], // Replace with your actual image
   },
   alternates: {
@@ -67,15 +67,15 @@ export const metadata: Metadata = {
       serviceType: "Content Writing",
       provider: {
         "@type": "Person",
-        name: "Rida Nadeem",
+        name: "Aisha Raouf",
       },
       url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
       sameAs: [
-        "https://www.linkedin.com/in/Rida Nadeem", // Replace with your actual LinkedIn
-        "https://twitter.com/Rida Nadeem", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Aisha Raouf", // Replace with your actual LinkedIn
+        "https://twitter.com/Aisha Raouf", // Replace with your actual Twitter
       ],
       description:
-        "Rida Nadeemprovides top content writing services in Lahore, Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
+        "Aisha Raoufprovides top content writing services in Lahore, Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
       areaServed: [
         "Lahore, Pakistan",
         "Karachi",
@@ -299,7 +299,7 @@ export default function ServicesPage() {
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <Button size="lg" asChild>
           <a
-            href="https://wa.me/923314043458?text=Hello%20Rida%2C%20I%20would%20like%20to%20discuss%20my%20content%20needs%20with%20you."
+            href="https://wa.me/923284300399?text=Hello%20aisha%2C%20I%20would%20like%20to%20discuss%20my%20content%20needs%20with%20you."
             target="_blank"
             rel="noopener noreferrer"
           >

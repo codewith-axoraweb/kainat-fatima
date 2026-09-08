@@ -9,55 +9,54 @@ import type { Metadata } from "next"
 import { DownloadResumeButton } from "@/components/DownloadResumeButton"
 
 export const metadata: Metadata = {
-  title: "About Rida Nadeem - AI Copywriter & Content Strategist",
+  title: "About Ayesha Raouf - SEO Content Writer",
   description:
-    "Learn about Rida Nadeem, an AI Copywriter and Content Strategist specializing in AI content refinement, high-volume copywriting, precision editing, technical writing, content strategy, research, SEO writing, and multi-genre expertise.",
+    "Learn about Ayesha Raouf, an SEO Content Writer with 2 years of experience specializing in SEO-friendly content, NLP, E-E-A-T, GEO, AEO, UX writing, guest posting, copywriting, blog writing, and LinkedIn profile optimization.",
   keywords: [
-    "Rida Nadeem",
-    "AI Copywriter",
-    "Content Strategist",
-    "AI Content Refinement",
-    "ChatGPT Workflows",
-    "High-Volume Copywriting",
-    "Brand Voice Consistency",
-    "Precision Editing",
-    "Technical Writing",
-    "News & Narrative Writing",
-    "Content Strategy",
-    "Research & Analysis",
+    "Ayesha Raouf",
+    "SEO Content Writer",
     "SEO Writing",
-    "Academic Writing",
-    "Philosophical Writing",
-    "Case Study Development",
-    "Evidence-Based Writing",
-    "Bilingual Writing",
+    "SEO Friendly Content",
+    "NLP",
+    "E-E-A-T",
+    "GEO",
+    "AEO",
+    "UX Writing",
+    "Guest Posting",
+    "LinkedIn Profile Optimization",
+    "Copywriting",
+    "Product Description",
+    "Article Writing",
+    "Blog Writing",
+    "Grant Writing",
+    "SEO Content Writing",
   ],
-  authors: [{ name: "Rida Nadeem" }],
+  authors: [{ name: "Ayesha Raouf" }],
   openGraph: {
-    title: "About Rida Nadeem - AI Copywriter & Content Strategist",
+    title: "About Ayesha Raouf - SEO Content Writer",
     description:
-      "Discover Rida Nadeem's professional experience in AI content refinement, copywriting, content strategy, research, editing, technical writing, and SEO writing.",
+      "Discover Ayesha Raouf's experience in SEO content writing, research, NLP, E-E-A-T, GEO, AEO, UX writing, guest posting, copywriting, and LinkedIn profile optimization.",
     type: "website",
-    url: "[https://storycup.vercel.app/about](https://storycup.vercel.app/about)",
+    url: "https://storycup.vercel.app/about",
     images: [
       {
         url: "/aboutme.webp",
         width: 1200,
         height: 630,
-        alt: "Rida Nadeem - AI Copywriter and Content Strategist",
+        alt: "Ayesha Raouf - SEO Content Writer",
       },
     ],
-    siteName: "Rida Nadeem Portfolio",
+    siteName: "Ayesha Raouf Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Rida Nadeem - AI Copywriter",
+    title: "About Ayesha Raouf - SEO Content Writer",
     description:
-      "Learn about Rida Nadeem's experience in AI content refinement, copywriting, content strategy, research, editing, and SEO writing.",
+      "Learn about Ayesha Raouf's experience in SEO content writing, research, NLP, E-E-A-T, GEO, AEO, UX writing, and SEO-friendly content creation.",
     images: ["/aboutme.webp"],
   },
   alternates: {
-    canonical: "[https://storycup.vercel.app/about](https://storycup.vercel.app/about)",
+    canonical: "https://storycup.vercel.app/about",
   },
   robots: {
     index: true,
@@ -72,13 +71,13 @@ export const metadata: Metadata = {
   },
   other: {
     "application/ld+json": JSON.stringify({
-      "@context": "[https://schema.org](https://schema.org)",
+      "@context": "https://schema.org",
       "@type": "Person",
-      name: "Rida Nadeem",
-      jobTitle: "AI Copywriter | Content Strategist",
-      url: "[https://storycup.vercel.app/about](https://storycup.vercel.app/about)",
+      name: "Ayesha Raouf",
+      jobTitle: "SEO Content Writer",
+      url: "https://storycup.vercel.app/about",
       description:
-        "Rida Nadeem is an AI Copywriter and Content Strategist specializing in AI content refinement, high-volume copywriting, precision editing, content strategy, research, technical writing, and SEO writing.",
+        "Ayesha Raouf is an SEO Content Writer with 2 years of experience creating engaging, well-researched, search-friendly content and applying NLP, E-E-A-T, GEO, and AEO principles to improve content quality, visibility, and audience engagement.",
     }),
   },
 }
@@ -94,7 +93,7 @@ export default function AboutPage() {
           <div className="relative w-32 h-32 mx-auto mb-6">
             <Image
               src="/about.png"
-              alt="Rida Nadeem"
+              alt="Ayesha Raouf"
               fill
               className="rounded-full border-4 border-primary/20"
             />
@@ -105,10 +104,11 @@ export default function AboutPage() {
           </h1>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm Rida Nadeem, an AI Copywriter and Content Strategist with a
-            Computer Science background and professional experience in AI
-            content refinement, high-volume copywriting, precision editing,
-            content strategy, research, technical writing, and SEO writing.
+            I'm Ayesha Raouf, an SEO Content Writer with 2 years of experience
+            creating engaging, well-researched, search-friendly content that
+            helps businesses reach the right audience. I specialize in SEO
+            content writing and applying NLP, E-E-A-T, GEO, and AEO principles
+            to improve content quality, visibility, and audience engagement.
           </p>
 
           <DownloadResumeButton />
@@ -122,7 +122,7 @@ export default function AboutPage() {
 
           <div className="space-y-8">
 
-            {/* Content Manager */}
+            {/* Freelance Content Writer */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-4">
@@ -131,9 +131,9 @@ export default function AboutPage() {
                   </div>
 
                   <div>
-                    <CardTitle>Content Manager</CardTitle>
+                    <CardTitle>Freelance Content Writer</CardTitle>
                     <p className="text-muted-foreground">
-                      B&S Venture.org (UK-Based) • 03/2024 - 05/2026
+                      Freelance • 2022 - 2024
                     </p>
                   </div>
                 </div>
@@ -141,58 +141,23 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  Transformed AI-generated drafts into publication-ready
-                  eBooks and content, maintained brand voice consistency,
-                  designed books in branded templates, and developed content
-                  strategies through research and collaboration with editors.
+                  Over 2 years, I wrote SEO-friendly content across multiple
+                  niches, creating engaging, well-researched, and
+                  search-friendly content designed to help businesses reach
+                  the right audience.
                 </p>
 
                 <div className="flex flex-wrap gap-2 mt-4">
-                  <Badge variant="secondary">AI Content Refinement</Badge>
-                  <Badge variant="secondary">eBook Writing</Badge>
-                  <Badge variant="secondary">Content Strategy</Badge>
-                  <Badge variant="secondary">Brand Voice Consistency</Badge>
-                  <Badge variant="secondary">Research & Analysis</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Content Writer - Snexus */}
-            <Card>
-              <CardHeader>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Briefcase className="h-6 w-6 text-primary" />
-                  </div>
-
-                  <div>
-                    <CardTitle>Content Writer</CardTitle>
-                    <p className="text-muted-foreground">
-                      Snexus Pvt Ltd • 11/2022 - 02/2024
-                    </p>
-                  </div>
-                </div>
-              </CardHeader>
-
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Produced blog posts and web content, managed content
-                  calendars across marketing campaigns, and maintained
-                  editorial precision through deep-dive research and
-                  fact-checking.
-                </p>
-
-                <div className="flex flex-wrap gap-2 mt-4">
-                  <Badge variant="secondary">Blog Writing</Badge>
-                  <Badge variant="secondary">Web Content</Badge>
-                  <Badge variant="secondary">Content Calendars</Badge>
+                  <Badge variant="secondary">SEO Content Writing</Badge>
+                  <Badge variant="secondary">SEO Friendly Content</Badge>
                   <Badge variant="secondary">Research</Badge>
-                  <Badge variant="secondary">Fact-Checking</Badge>
+                  <Badge variant="secondary">Article Writing</Badge>
+                  <Badge variant="secondary">Blog Writing</Badge>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Content Writer - Upwork */}
+            {/* Web Design & Development */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-4">
@@ -201,9 +166,9 @@ export default function AboutPage() {
                   </div>
 
                   <div>
-                    <CardTitle>Content Writer</CardTitle>
+                    <CardTitle>Web Design & Development</CardTitle>
                     <p className="text-muted-foreground">
-                      Upwork (Freelance) • 04/2022 - 09/2022
+                      National College of Business Administration & Economics • 2017 - 2018
                     </p>
                   </div>
                 </div>
@@ -211,17 +176,15 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  Delivered custom blog, article, and product copy for B2B and
-                  B2C clients by understanding niche industries and tailoring
-                  content voice to each brand's audience.
+                  Successfully completed a 720-hour Web Design & Development
+                  practical training program under the Punjab Skills
+                  Development Fund and secured 89% marks.
                 </p>
 
                 <div className="flex flex-wrap gap-2 mt-4">
-                  <Badge variant="secondary">Blog Writing</Badge>
-                  <Badge variant="secondary">Article Writing</Badge>
-                  <Badge variant="secondary">Product Copy</Badge>
-                  <Badge variant="secondary">B2B Content</Badge>
-                  <Badge variant="secondary">B2C Content</Badge>
+                  <Badge variant="secondary">Web Design</Badge>
+                  <Badge variant="secondary">Web Development</Badge>
+                  <Badge variant="secondary">Practical Training</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -237,12 +200,12 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            {/* AI & Content Writing */}
+            {/* SEO & Content Writing */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                  AI & Content Writing
+                  SEO & Content Writing
                 </CardTitle>
               </CardHeader>
 
@@ -250,7 +213,7 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>AI Content Refinement</span>
+                    <span>SEO Content Writing</span>
                     <span>95%</span>
                   </div>
                   <Progress value={95} />
@@ -266,7 +229,7 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Precision Editing</span>
+                    <span>Article & Blog Writing</span>
                     <span>95%</span>
                   </div>
                   <Progress value={95} />
@@ -275,12 +238,12 @@ export default function AboutPage() {
               </CardContent>
             </Card>
 
-            {/* Content Strategy & Research */}
+            {/* SEO Strategy & Optimization */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                  Content Strategy & Research
+                  SEO Strategy & Optimization
                 </CardTitle>
               </CardHeader>
 
@@ -288,7 +251,7 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Content Strategy</span>
+                    <span>SEO</span>
                     <span>95%</span>
                   </div>
                   <Progress value={95} />
@@ -296,15 +259,15 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Research & Analysis</span>
-                    <span>95%</span>
+                    <span>LinkedIn Profile Optimization</span>
+                    <span>90%</span>
                   </div>
-                  <Progress value={95} />
+                  <Progress value={90} />
                 </div>
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>SEO Writing</span>
+                    <span>Guest Posting</span>
                     <span>90%</span>
                   </div>
                   <Progress value={90} />
@@ -313,12 +276,12 @@ export default function AboutPage() {
               </CardContent>
             </Card>
 
-            {/* Technical & Editorial Skills */}
+            {/* Modern Content Principles */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
-                  Technical & Editorial Skills
+                  Modern Content Principles
                 </CardTitle>
               </CardHeader>
 
@@ -326,7 +289,7 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Technical Writing</span>
+                    <span>NLP</span>
                     <span>90%</span>
                   </div>
                   <Progress value={90} />
@@ -334,18 +297,18 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Brand Voice Consistency</span>
-                    <span>95%</span>
+                    <span>E-E-A-T</span>
+                    <span>90%</span>
                   </div>
-                  <Progress value={95} />
+                  <Progress value={90} />
                 </div>
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Communication</span>
-                    <span>95%</span>
+                    <span>GEO & AEO</span>
+                    <span>90%</span>
                   </div>
-                  <Progress value={95} />
+                  <Progress value={90} />
                 </div>
 
               </CardContent>
@@ -355,16 +318,20 @@ export default function AboutPage() {
 
           {/* Additional Skills */}
           <div className="flex flex-wrap gap-2 justify-center mt-8">
-            <Badge variant="secondary">ChatGPT Workflows</Badge>
-            <Badge variant="secondary">High-Volume Production</Badge>
-            <Badge variant="secondary">Proofreading</Badge>
-            <Badge variant="secondary">News & Narrative Writing</Badge>
-            <Badge variant="secondary">Academic Writing</Badge>
-            <Badge variant="secondary">Philosophical Writing</Badge>
-            <Badge variant="secondary">Case Study Development</Badge>
-            <Badge variant="secondary">Complex Topic Simplification</Badge>
-            <Badge variant="secondary">Evidence-Based Writing</Badge>
-            <Badge variant="secondary">Bilingual Writing</Badge>
+            <Badge variant="secondary">SEO Content Writer</Badge>
+            <Badge variant="secondary">UX Writing</Badge>
+            <Badge variant="secondary">Guest Posting</Badge>
+            <Badge variant="secondary">LinkedIn Profile Optimization</Badge>
+            <Badge variant="secondary">Copywriting</Badge>
+            <Badge variant="secondary">Product Description</Badge>
+            <Badge variant="secondary">Article Writing</Badge>
+            <Badge variant="secondary">Blog Writing</Badge>
+            <Badge variant="secondary">Grant Writing</Badge>
+            <Badge variant="secondary">NLP</Badge>
+            <Badge variant="secondary">E-E-A-T</Badge>
+            <Badge variant="secondary">GEO</Badge>
+            <Badge variant="secondary">AEO</Badge>
+            <Badge variant="secondary">SEO Friendly Content Writing</Badge>
           </div>
         </section>
 
@@ -376,7 +343,7 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 gap-8">
 
-            {/* Bachelor's */}
+            {/* Bachelor's in Zoology */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-4">
@@ -385,9 +352,9 @@ export default function AboutPage() {
                   </div>
 
                   <div>
-                    <CardTitle>B.S. Computer Science</CardTitle>
+                    <CardTitle>Bachelors of Zoology</CardTitle>
                     <p className="text-muted-foreground">
-                      COMSATS University, Lahore
+                      Bahauddin Zakariya University • 2015 - 2019
                     </p>
                   </div>
                 </div>
@@ -395,10 +362,61 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  B.S. Computer Science from COMSATS University, Lahore.
-                  Technical background that enables understanding of technical
-                  concepts and structured thinking.
+                  Bachelors of Zoology from Bahauddin Zakariya University,
+                  completed from 2015 to 2019.
                 </p>
+              </CardContent>
+            </Card>
+
+            {/* Bachelor's of Education */}
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <GraduationCap className="h-6 w-6 text-primary" />
+                  </div>
+
+                  <div>
+                    <CardTitle>Bachelors of Education</CardTitle>
+                    <p className="text-muted-foreground">
+                      Allama Iqbal Open University, Islamabad • 2019 - 2021
+                    </p>
+                  </div>
+                </div>
+              </CardHeader>
+
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Bachelors of Education from Allama Iqbal Open University,
+                  Islamabad, completed from 2019 to 2021.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Certifications */}
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Award className="h-6 w-6 text-primary" />
+                  </div>
+
+                  <div>
+                    <CardTitle>Certifications</CardTitle>
+                    <p className="text-muted-foreground">
+                      Professional Courses & Certifications
+                    </p>
+                  </div>
+                </div>
+              </CardHeader>
+
+              <CardContent>
+                <div className="space-y-2 text-muted-foreground">
+                  <p>• Freelancing Course - DigiSkills.pk</p>
+                  <p>• Web Design & Development Course - 2017 to 2018</p>
+                  <p>• LinkedIn Profile Optimization Course</p>
+                  <p>• SEO Content Writing</p>
+                </div>
               </CardContent>
             </Card>
 
@@ -413,7 +431,7 @@ export default function AboutPage() {
                   <div>
                     <CardTitle>Languages</CardTitle>
                     <p className="text-muted-foreground">
-                      Urdu & English
+                      English & Urdu
                     </p>
                   </div>
                 </div>
@@ -421,8 +439,7 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  Urdu (Native/C2) and English (Fluent/C1), with exceptional
-                  written and verbal communication skills.
+                  English and Urdu.
                 </p>
               </CardContent>
             </Card>
@@ -439,11 +456,10 @@ export default function AboutPage() {
           <Card>
             <CardContent className="p-8">
               <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto">
-                I focus on creating precise, polished, and meaningful content
-                across diverse genres and industries. My work combines AI
-                content refinement, research, editing, content strategy, and
-                strong brand voice consistency to deliver publication-ready
-                writing.
+                I am committed to delivering quality work while meeting
+                deadlines. My approach combines engaging and well-researched
+                content with SEO principles, NLP, E-E-A-T, GEO, and AEO to
+                improve content quality, visibility, and audience engagement.
               </p>
             </CardContent>
           </Card>
