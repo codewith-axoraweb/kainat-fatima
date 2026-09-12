@@ -6,48 +6,59 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { CheckCircle, FileText, PenLine, Search, Newspaper, MessageCircle } from "lucide-react"
 import { Metadata } from "next"
+
 export const metadata: Metadata = {
-  title: "Aisha Raouf's Services - Best Content Writing & SEO Copywriting",
+  title: "Kainat Fatima's Services - UX/UI Design Services",
   description:
-    "Hire Aisha Raouffor top content writing services in Dunyapur, Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
+    "Explore Kainat Fatima's UX/UI design services including user-centered design, wireframing, prototyping, user research, visual design, design systems, and social media design.",
   keywords: [
-    "best content writing services",
-    "content writing services in Dunyapur, Pakistan",
-    "article writing services in Dunyapur, Pakistan",
-    "content writing agency",
-    "best SEO content writer in Dunyapur, Pakistan",
-    "freelance content writer",
-    "SEO copywriting",
-    "blog writing services",
-    "professional content writing services",
-    "content writer Karachi",
+    "Kainat Fatima",
+    "UX/UI Designer",
+    "UI UX Design Services",
+    "User-Centered Design",
+    "Wireframing",
+    "Prototyping",
+    "User Research",
+    "Usability Testing",
+    "Information Architecture",
+    "Interaction Design",
+    "Visual Design",
+    "Accessibility Design",
+    "Design Systems",
+    "Figma Designer",
+    "Social Media Design",
+    "Logo Design",
+    "Brand Guidelines",
+    "Web UI Design",
+    "Mobile UI Design",
+    "Project Coordination",
   ],
-  authors: [{ name: "Aisha Raouf" }],
+  authors: [{ name: "Kainat Fatima" }],
   openGraph: {
-    title: "Aisha Raouf's Services - Best Content Writing & SEO in Dunyapur, Pakistan",
+    title: "Kainat Fatima's Services - UX/UI Design Services",
     description:
-      "Aisha Raoufoffers expert content writing services in Dunyapur, Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
+      "Kainat Fatima provides UX/UI design services including user research, wireframing, prototyping, visual design, design systems, web and mobile UI, and social media design.",
     type: "website",
-    url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
+    url: "https://storycup.vercel.app/services",
     images: [
       {
-        url: "/services-og-image.jpg", // Replace with a relevant image for the Services page
+        url: "/services-og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Aisha RaoufBest Content Writing Services",
+        alt: "Kainat Fatima - UX/UI Designer",
       },
     ],
-    siteName: "Aisha RaoufPortfolio",
+    siteName: "Kainat Fatima Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aisha Raouf's Services - Best Content Writing & SEO",
+    title: "Kainat Fatima's Services - UX/UI Design",
     description:
-      "Hire Aisha Raouffor professional content writing, SEO content, and blog writing services in Dunyapur, Pakistan and beyond.",
-    images: ["/services-og-image.jpg"], // Replace with your actual image
+      "Explore Kainat Fatima's professional UX/UI design services for web and mobile platforms.",
+    images: ["/services-og-image.jpg"],
   },
   alternates: {
-    canonical: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
+    canonical: "https://storycup.vercel.app/services",
   },
   robots: {
     index: true,
@@ -64,31 +75,25 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Service",
-      serviceType: "Content Writing",
+      serviceType: "UX/UI Design",
       provider: {
         "@type": "Person",
-        name: "Aisha Raouf",
+        name: "Kainat Fatima",
       },
-      url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
+      url: "https://storycup.vercel.app/services",
       sameAs: [
-        "https://www.linkedin.com/in/Aisha Raouf", // Replace with your actual LinkedIn
-        "https://twitter.com/Aisha Raouf", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/kainat-fatima-b6a931243/",
+        "https://www.behance.net/buttkainat",
       ],
       description:
-        "Aisha Raoufprovides top content writing services in Dunyapur, Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
+        "Kainat Fatima provides UX/UI design services specializing in user-centered design, user research, wireframing, prototyping, interaction design, visual design, accessibility, and design systems.",
       areaServed: [
-        "Dunyapur, Pakistan",
-        "Karachi",
+        "Pakistan",
         "USA",
         "Dubai",
         "Australia",
         "UK",
       ],
-      offers: {
-        "@type": "Offer",
-        priceCurrency: "USD",
-        description: "Professional content writing services including SEO content, blog writing, and copywriting",
-      },
     }),
   },
 };
@@ -96,30 +101,50 @@ export const metadata: Metadata = {
 const services = [
   {
     icon: FileText,
-    title: "Blog & Article Writing",
-    description: "Engaging, SEO-optimized content that drives traffic and builds brand authority.",
-    features: ["Keyword Research", "On-page SEO", "Original & Researched Content", "Quick Turnaround"],
-    price: "Starting at $100/article",
+    title: "UI/UX Design",
+    description: "Clean, engaging, and user-friendly interface designs for web and mobile platforms.",
+    features: [
+      "User-Centered Design",
+      "Web & Mobile UI",
+      "Interaction Design",
+      "Visual Design",
+    ],
+    price: "Custom Quote",
   },
   {
     icon: PenLine,
-    title: "Website Copywriting",
-    description: "Compelling copy for homepages, about pages, service pages, and more.",
-    features: ["Conversion-Focused", "Brand Voice Aligned", "SEO Optimized", "Clear CTAs"],
-    price: "Starting at $300/page",
+    title: "Wireframing & Prototyping",
+    description: "Clear user flows, wireframes, and interactive prototypes designed to improve usability.",
+    features: [
+      "User Flows",
+      "Wireframing",
+      "High-Fidelity Prototypes",
+      "Interactive Prototyping",
+    ],
+    price: "Custom Quote",
   },
   {
     icon: Newspaper,
-    title: "Press Releases & PR Writing",
-    description: "Professional press releases to announce product launches, events, and company news.",
-    features: ["Industry Targeted", "Journalistic Style", "Distribution-Ready", "Fast Delivery"],
-    price: "Starting at $250/release",
+    title: "User Research & Testing",
+    description: "Research and usability testing to understand user needs, pain points, and behavioral patterns.",
+    features: [
+      "User Research",
+      "Usability Testing",
+      "User Pain Points",
+      "Behavioral Patterns",
+    ],
+    price: "Custom Quote",
   },
   {
     icon: Search,
-    title: "SEO Content Strategy",
-    description: "Content strategy planning to improve rankings and support business goals.",
-    features: ["Content Audit", "SEO Planning", "Content Calendar", "Performance Reports"],
+    title: "Design Systems & Visual Design",
+    description: "Consistent and scalable design systems with accessibility-focused visual experiences.",
+    features: [
+      "Design Systems",
+      "Style Guides",
+      "Accessibility",
+      "Inclusive Design",
+    ],
     price: "Custom Quote",
   },
 ]
@@ -137,7 +162,7 @@ const packages = [
       "Email support",
     ],
     popular: false,
-      discount: "25% OFF",
+    discount: "25% OFF",
 
   },
   {
@@ -176,20 +201,29 @@ export default function ServicesPage() {
       <Header />
 
       <div className="container mx-auto px-4 py-12">
+
         {/* Hero Section */}
         <section className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-4">Content Writing Services</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold mb-4">
+            UX/UI Design Services
+          </h1>
+
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            High-quality, strategic writing that informs, converts, and connects with your audience.
+            User-centered design solutions that create engaging, accessible,
+            and user-friendly experiences for web and mobile platforms.
           </p>
         </section>
 
         {/* Services Grid */}
         <section className="mb-20">
-          <h2 className="text-3xl font-bold text-center mb-12">What I Offer</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">
+            What I Offer
+          </h2>
+
           <div className="grid md:grid-cols-2 gap-8">
             {services.map((service, index) => {
               const Icon = service.icon
+
               return (
                 <Card key={index} className="hover:shadow-lg transition-shadow">
                   <CardHeader>
@@ -197,19 +231,35 @@ export default function ServicesPage() {
                       <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                         <Icon className="h-6 w-6 text-blue" />
                       </div>
+
                       <div>
-                        <CardTitle className="text-xl">{service.title}</CardTitle>
-                        <Badge variant="secondary">{service.price}</Badge>
+                        <CardTitle className="text-xl">
+                          {service.title}
+                        </CardTitle>
+
+                        <Badge variant="secondary">
+                          {service.price}
+                        </Badge>
                       </div>
                     </div>
                   </CardHeader>
+
                   <CardContent>
-                    <p className="text-muted-foreground mb-4">{service.description}</p>
+                    <p className="text-muted-foreground mb-4">
+                      {service.description}
+                    </p>
+
                     <ul className="space-y-2">
                       {service.features.map((feature, featureIndex) => (
-                        <li key={featureIndex} className="flex items-center gap-2">
+                        <li
+                          key={featureIndex}
+                          className="flex items-center gap-2"
+                        >
                           <CheckCircle className="h-4 w-4 text-green-500" />
-                          <span className="text-sm">{feature}</span>
+
+                          <span className="text-sm">
+                            {feature}
+                          </span>
                         </li>
                       ))}
                     </ul>
@@ -223,23 +273,49 @@ export default function ServicesPage() {
         {/* Pricing Packages */}
 
 
+
         {/* Process */}
         <section className="mb-20">
-          <h2 className="text-3xl font-bold text-center mb-12">My Process</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">
+            My Process
+          </h2>
+
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { step: "01", title: "Briefing", description: "Understanding your content goals and audience" },
-              { step: "02", title: "Research", description: "Keyword and competitor analysis" },
-              { step: "03", title: "Writing", description: "Crafting compelling and SEO-friendly content" },
-              { step: "04", title: "Delivery", description: "Final edits, approval, and publishing support" },
+              {
+                step: "01",
+                title: "Research",
+                description: "Understanding user needs, pain points, and behavioral patterns",
+              },
+              {
+                step: "02",
+                title: "Planning",
+                description: "Creating user flows, information architecture, and design direction",
+              },
+              {
+                step: "03",
+                title: "Design",
+                description: "Creating wireframes, prototypes, and polished visual interfaces",
+              },
+              {
+                step: "04",
+                title: "Collaboration",
+                description: "Working with teams and stakeholders to refine and deliver design solutions",
+              },
             ].map((item, index) => (
               <Card key={index} className="text-center">
                 <CardContent className="p-6">
                   <div className="w-12 h-12 bg-primary text-blue-foreground rounded-full flex items-center justify-center mx-auto mb-4 text-lg font-bold">
                     {item.step}
                   </div>
-                  <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
-                  <p className="text-muted-foreground text-sm">{item.description}</p>
+
+                  <h3 className="font-semibold text-lg mb-2">
+                    {item.title}
+                  </h3>
+
+                  <p className="text-muted-foreground text-sm">
+                    {item.description}
+                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -248,34 +324,42 @@ export default function ServicesPage() {
 
         {/* FAQ */}
         <section className="mb-20">
-          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">
+            Frequently Asked Questions
+          </h2>
+
           <div className="max-w-3xl mx-auto space-y-6">
             {[
               {
-                question: "What industries do you specialize in?",
+                question: "What type of design projects do you work on?",
                 answer:
-                  "I write for a wide range of industries including tech, marketing, health, SaaS, and e-commerce.",
+                  "I work on web and mobile UI/UX projects, focusing on creating clean, engaging, and user-friendly digital experiences.",
               },
               {
-                question: "Do you offer revisions?",
+                question: "What UX/UI design services do you provide?",
                 answer:
-                  "Yes, I include 2 rounds of revisions with each piece of content to ensure it meets your expectations.",
+                  "My services include user-centered design, user research, usability testing, user flows, wireframing, high-fidelity prototyping, interaction design, visual design, and design systems.",
               },
               {
-                question: "How do you handle SEO?",
+                question: "Which design tools do you use?",
                 answer:
-                  "I use keyword research, meta tags, internal linking, and formatting techniques to boost SEO naturally.",
+                  "I work with Figma, Illustrator, Canva, InDesign, and Sketch.",
               },
               {
-                question: "What is your turnaround time?",
+                question: "Do you also work on branding and social media designs?",
                 answer:
-                  "Most projects are delivered within 5–7 business days, depending on length and complexity.",
+                  "Yes. My experience includes logo design, brand guideline materials, social media posts, marketing graphics, visual templates, and motion content.",
               },
             ].map((faq, index) => (
               <Card key={index}>
                 <CardContent className="p-6">
-                  <h3 className="font-semibold text-lg mb-2">{faq.question}</h3>
-                  <p className="text-muted-foreground">{faq.answer}</p>
+                  <h3 className="font-semibold text-lg mb-2">
+                    {faq.question}
+                  </h3>
+
+                  <p className="text-muted-foreground">
+                    {faq.answer}
+                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -283,37 +367,41 @@ export default function ServicesPage() {
         </section>
 
         {/* CTA */}
-      <section className="text-center">
-  <Card className="max-w-2xl mx-auto">
-    <CardContent className="p-8">
-      <MessageCircle className="h-12 w-12 text-blue mx-auto mb-4" />
+        <section className="text-center">
+          <Card className="max-w-2xl mx-auto">
+            <CardContent className="p-8">
+              <MessageCircle className="h-12 w-12 text-blue mx-auto mb-4" />
 
-      <h2 className="text-2xl font-bold mb-4">
-        Ready to Elevate Your Content?
-      </h2>
+              <h2 className="text-2xl font-bold mb-4">
+                Ready to Create a Better User Experience?
+              </h2>
 
-      <p className="text-muted-foreground mb-6">
-        Let's discuss your content needs and bring your ideas to life with impactful writing.
-      </p>
+              <p className="text-muted-foreground mb-6">
+                Let's discuss your design needs and create engaging,
+                user-friendly digital experiences for your users.
+              </p>
 
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <Button size="lg" asChild>
-          <a
-            href="https://wa.me/923284300399?text=Hello%20aisha%2C%20I%20would%20like%20to%20discuss%20my%20content%20needs%20with%20you."
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Get Free Quote
-          </a>
-        </Button>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button size="lg" asChild>
+                  <a
+                    href="mailto:buttknt@gmail.com?subject=UX/UI Design Project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Get Free Quote
+                  </a>
+                </Button>
 
-        <Button size="lg" variant="outline" asChild>
-          <Link href="/portfolio">View Writing Samples</Link>
-        </Button>
-      </div>
-    </CardContent>
-  </Card>
-</section>
+                <Button size="lg" variant="outline" asChild>
+                  <Link href="/portfolio">
+                    View Design Portfolio
+                  </Link>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
       </div>
 
       <Footer />

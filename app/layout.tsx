@@ -11,19 +11,19 @@ import FloatingWhatsApp from "@/components/floating-whatsapp"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Aisha Raouf - Expert Content Writer & SEO Copywriter",
+  title: "Kainat  Raouf - Expert UX/UI Designer & SEO Copywriter",
 
   description:
-    "Discover Aisha Raouf's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
+    "Discover Kainat  Raouf's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
 
   keywords: [
-    "content writer",
+    "UX/UI Designer",
     "SEO content",
     "blog writing",
     "copywriting",
     "content strategy",
     "freelance writer",
-    "Aisha Raouf portfolio",
+    "Kainat  Raouf portfolio",
     "storycup",
   ],
 
@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     apple: "/anam.png",
   },
 
-  authors: [{ name: "Aisha Raouf" }],
+  authors: [{ name: "Kainat  Raouf" }],
 
   openGraph: {
-    title: "Aisha Raouf - Expert Content Writer & Copywriter",
+    title: "Kainat  Raouf - Expert UX/UI Designer & Copywriter",
     description:
-      "Explore Aisha Raouf's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
+      "Explore Kainat  Raouf's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
     type: "website",
     url: "https://storycup.vercel.app/",
     images: [
@@ -46,17 +46,17 @@ export const metadata: Metadata = {
         url: "/anam.png",
         width: 1200,
         height: 630,
-        alt: "Aisha Raouf Content Writing Portfolio",
+        alt: "Kainat  Raouf Content Writing Portfolio",
       },
     ],
-    siteName: "Aisha Raouf Portfolio",
+    siteName: "Kainat  Raouf Portfolio",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Aisha Raouf - Expert Content Writer & Copywriter",
+    title: "Kainat  Raouf - Expert UX/UI Designer & Copywriter",
     description:
-      "Explore Aisha Raouf's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
+      "Explore Kainat  Raouf's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
     images: ["/anam.png"],
   },
 

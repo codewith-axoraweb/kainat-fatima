@@ -18,12 +18,12 @@ import { Footer } from "@/components/footer";
 
 export default function HomePage() {
   const handleDownloadResume = async () => {
-    const response = await fetch('/aisha.pdf')
+    const response = await fetch('/Kainat Fatima.pdf')
     const blob = await response.blob();
 
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.setAttribute('download', 'aisha.pdf');
+    link.setAttribute('download', 'Kainat Fatima.pdf');
     link.style.display = 'none';
     document.body.appendChild(link);
     link.click();
@@ -47,17 +47,19 @@ export default function HomePage() {
                 </Badge>
 
                 <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight break-words">
-                  Hi, I'm <span className="text-blue-600">Aisha Raouf</span>
+                  Hi, I'm <span className="text-blue-600">Kainat Fatima</span>
                 </h1>
 
                 <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground">
-                  AI Copywriter | Content Strategist
+                  UX/UI Designer
                 </p>
 
                 <p className="text-base sm:text-lg text-muted-foreground max-w-lg">
-                  I specialize in shaping raw AI-generated drafts into polished,
-                  on-brand content with precision, speed, and consistency.
-                  Experienced across diverse genres and industries.
+                  Creative and results-driven UI/UX Designer with a Computer Science
+                  background and over 4 years of experience crafting engaging user
+                  experiences for web and mobile platforms. Skilled in user-centered
+                  design, wireframing, interactive prototyping, and cross-functional
+                  collaboration.
                 </p>
               </div>
 
@@ -87,26 +89,26 @@ export default function HomePage() {
                 {/* LinkedIn */}
                 <Button size="icon" variant="ghost" asChild>
                   <Link
-                    href="https://www.linkedin.com/in/ayeshanlpcontentwriter"
+                    href="https://www.linkedin.com/in/kainat-fatima-b6a931243/"
                     target="_blank"
                   >
                     <Linkedin className="h-4 w-4" />
                   </Link>
                 </Button>
 
-                {/* Medium */}
+                {/* Behance */}
                 <Button size="icon" variant="ghost" asChild>
                   <Link
-                    href="https://medium.com/@aisharaouf230"
+                    href="https://www.behance.net/buttkainat"
                     target="_blank"
                   >
-                    <span className="font-bold text-sm">M</span>
+                    <span className="font-bold text-sm">B</span>
                   </Link>
                 </Button>
 
                 {/* Email */}
                 <Button size="icon" variant="ghost" asChild>
-                  <Link href="mailto:aisharaouf230@gmail.com">
+                  <Link href="mailto:buttknt@gmail.com">
                     <Mail className="h-4 w-4" />
                   </Link>
                 </Button>
@@ -119,7 +121,7 @@ export default function HomePage() {
 
                 <Image
                   src="/contentwriterhomepage.jpeg?height=400&width=400"
-                  alt="Aisha Raouf"
+                  alt="Kainat Fatima"
                   width={400}
                   height={400}
                   className="relative rounded-full border-4 border-background shadow-2xl w-full h-auto"
@@ -153,23 +155,22 @@ export default function HomePage() {
             {/* Content */}
             <div className="space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl">
               <p>
-                I'm <span className="font-semibold text-foreground">Aisha Raouf</span>,
-                an AI Copywriter and Content Strategist with a Computer Science
-                background, specializing in creating polished, precise, and
-                on-brand content.
+                I'm <span className="font-semibold text-foreground">Kainat Fatima</span>,
+                a creative and results-driven UX/UI Designer with a Computer Science
+                background and over 4 years of experience crafting engaging user
+                experiences for web and mobile platforms.
               </p>
 
               <p>
-                I have produced 150+ AI-refined blog posts and eBooks in 12 months
-                with a 95%+ first-pass approval rate. My experience includes AI
-                content refinement, high-volume copywriting, technical writing,
-                SEO writing, research, editing, and multi-genre content.
+                I specialize in user-centered design, wireframing, interactive
+                prototyping, user research, information architecture, interaction
+                design, visual design, accessibility, and design systems.
               </p>
 
               <p>
-                My approach combines precision editing, research, brand voice
-                consistency, and strategic content development to deliver
-                informative, engaging, and publication-ready work.
+                My approach focuses on turning complex problems into elegant,
+                user-friendly interfaces while collaborating with cross-functional
+                teams to improve usability and business outcomes.
               </p>
             </div>
 
@@ -193,30 +194,30 @@ export default function HomePage() {
             </h2>
 
             <p className="text-base sm:text-lg text-muted-foreground">
-              Skills and expertise I use to deliver precise, high-quality content
+              Skills and expertise I use to create engaging and user-friendly digital experiences
             </p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 md:gap-6 max-w-4xl mx-auto">
             {[
-              "AI Content Refinement",
-              "ChatGPT Workflows",
-              "High-Volume Copywriting",
-              "Brand Voice Consistency",
-              "Precision Editing",
-              "Technical Writing",
-              "News & Narrative Writing",
-              "Content Strategy",
-              "Research & Analysis",
-              "SEO Writing",
-              "Proofreading",
-              "Academic Writing",
-              "Philosophical Writing",
-              "Case Study Development",
-              "Complex Topic Simplification",
-              "Evidence-Based Writing",
-              "Bilingual Writing",
-              "Communication Excellence",
+              "User-Centered Design (UCD)",
+              "Wireframing & Prototyping",
+              "User Research & Testing",
+              "Information Architecture (IA)",
+              "Interaction & Visual Design",
+              "Accessibility & Inclusive Design",
+              "Design Systems & Style Guides",
+              "Project Coordination & Management",
+              "Cross-Functional Collaboration",
+              "Task & Resource Management",
+              "Documentation & Reporting",
+              "Stakeholder Communication",
+              "Quality Assurance Support",
+              "Figma",
+              "Illustrator",
+              "Canva",
+              "InDesign",
+              "Sketch",
             ].map((skill) => (
               <Card
                 key={skill}

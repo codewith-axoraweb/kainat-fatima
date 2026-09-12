@@ -10,35 +10,35 @@ import { Calendar, Clock, Search, ArrowRight } from "lucide-react"
 import {Metadata} from "next"
 
 export const metadata: Metadata = {
-  title: "Aisha Raouf's Blog - Best Content Writing Tips & SEO Insights",
+  title: "Kainat  Raouf's Blog - Best Content Writing Tips & SEO Insights",
   description:
-    "Explore Aisha Raouf's blog for expert tips on content writing, SEO content, and blog writing from Dunyapur, Pakistan's top writer.",
+    "Explore Kainat  Raouf's blog for expert tips on content writing, SEO content, and blog writing from Dunyapur, Pakistan's top writer.",
   keywords: [
-    "Aisha Raoufblog",
+    "Kainat  Raoufblog",
     "best content writing services",
     "content writing services in Dunyapur, Pakistan",
     "article writing services in Dunyapur, Pakistan",
     "content writing agency",
-    "best SEO content writer in Dunyapur, Pakistan",
-    "freelance content writer",
+    "best SEO UX/UI Designer in Dunyapur, Pakistan",
+    "freelance UX/UI Designer",
     "SEO copywriting",
     "blog writing services",
     "professional content writing services",
-    "content writer Karachi",
+    "UX/UI Designer Karachi",
     "content writing in Dubai",
     "best copywriter in USA",
     "freelance copywriter Australia",
-    "real estate content writer",
-    "marketing content writer",
-    "web content writer",
+    "real estate UX/UI Designer",
+    "marketing UX/UI Designer",
+    "web UX/UI Designer",
     "best content writing websites",
-    "content writer rates per word",
-    "content writer Karachi contact number",
+    "UX/UI Designer rates per word",
+    "UX/UI Designer Karachi contact number",
   ],
-  authors: [{ name: "Aisha Raouf" }],
+  authors: [{ name: "Kainat  Raouf" }],
   openGraph: {
-    title: "Aisha Raouf's Blog - Content Writing Tips & SEO Insights",
-    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from Aisha Raouf, a top writer in Dunyapur, Pakistan.",
+    title: "Kainat  Raouf's Blog - Content Writing Tips & SEO Insights",
+    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from Kainat  Raouf, a top writer in Dunyapur, Pakistan.",
     type: "website",
     url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
     images: [
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
         url: "/blog-og-image.jpg", // Replace with a relevant image for the Blog page
         width: 1200, // Fixed: Changed from 00 to 1200
         height: 630,
-        alt: "Aisha RaoufBlog - Content Writing Tips",
+        alt: "Kainat  RaoufBlog - Content Writing Tips",
       },
     ],
-    siteName: "Aisha RaoufPortfolio",
+    siteName: "Kainat  RaoufPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aisha Raouf's Blog - Content Writing & SEO Tips",
+    title: "Kainat  Raouf's Blog - Content Writing & SEO Tips",
     description:
-      "Read Aisha Raouf's blog for top content writing, SEO, and blog writing tips from Dunyapur, Pakistan to USA, Dubai, and Australia.",
+      "Read Kainat  Raouf's blog for top content writing, SEO, and blog writing tips from Dunyapur, Pakistan to USA, Dubai, and Australia.",
     images: ["/bBiography.webp"], // Replace with your actual image
   },
   alternates: {
@@ -76,19 +76,19 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "Aisha Raouf's Content Writing Blog",
+  name: "Kainat  Raouf's Content Writing Blog",
   author: {
     "@type": "Person",
-    name: "Aisha Raouf",
+    name: "Kainat  Raouf",
   },
   url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
       sameAs: [
-        "https://www.linkedin.com/in/Aisha Raouf", // Replace with your actual LinkedIn
-        "https://twitter.com/Aisha Raouf", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Kainat  Raouf", // Replace with your actual LinkedIn
+        "https://twitter.com/Kainat  Raouf", // Replace with your actual Twitter
         "https://wa.me/+923181463435", // Replace with your actual WhatsApp number
       ],
       description:
-        "Aisha Raouf's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Dunyapur, Pakistan, Karachi, USA, Dubai, Australia, and UK.",
+        "Kainat  Raouf's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Dunyapur, Pakistan, Karachi, USA, Dubai, Australia, and UK.",
     }),
   },
 };

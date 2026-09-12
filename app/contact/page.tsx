@@ -4,19 +4,9 @@ import type React from "react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { Mail, MapPin, Send, MessageCircle } from "lucide-react";
+import { Mail, MapPin, MessageCircle } from "lucide-react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -75,10 +65,10 @@ export default function ContactPage() {
     }
   };
 
-  const whatsappNumber = "923284300399";
+  const whatsappNumber = "923114020461";
 
   const whatsappMessage = encodeURIComponent(
-    "Hello Ayesha, I would like to discuss a content writing project with you."
+    "Hello Kainat, I would like to discuss a UI/UX design project with you."
   );
 
   return (
@@ -92,8 +82,8 @@ export default function ContactPage() {
           </h1>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Whether you need engaging articles, strategic SEO content, or
-            compelling web copy, I'm here to help.
+            Whether you need user-centered design, wireframes, prototypes, or
+            engaging web and mobile interfaces, I'm here to help.
           </p>
         </section>
 
@@ -119,7 +109,7 @@ export default function ContactPage() {
 
                   <p className="text-muted-foreground max-w-xl mb-6">
                     Have a project in mind? Contact me directly on WhatsApp to
-                    discuss your requirements, content needs, and project
+                    discuss your UI/UX requirements, design needs, and project
                     details.
                   </p>
 
@@ -153,7 +143,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-muted-foreground">
-                      aisharaouf230@gmail.com
+                      buttknt@gmail.com
                     </p>
                   </div>
                 </div>
@@ -165,7 +155,7 @@ export default function ContactPage() {
 
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">Dunyapur, Pakistan</p>
+                    <p className="text-muted-foreground">Pakistan</p>
                   </div>
                 </div>
               </CardContent>
@@ -191,7 +181,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Chat with me</p>
                     <p className="text-muted-foreground">
-                      +92 3284300399
+                      +92 3114020461
                     </p>
                   </div>
                 </a>
@@ -205,8 +195,8 @@ export default function ContactPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  I typically respond within 24 hours. If your content request
-                  is urgent, please reach out via WhatsApp.
+                  I typically respond within 24 hours. If your UI/UX design
+                  request is urgent, please reach out via WhatsApp.
                 </p>
               </CardContent>
             </Card>
@@ -221,21 +211,21 @@ export default function ContactPage() {
 
             <CardContent className="p-0">
               <div className="overflow-hidden rounded-b-lg">
-               <iframe
-  src="https://www.google.com/maps?q=Dunyapur%2C%20Pakistan&output=embed"
-  width="100%"
-  height="400"
-  style={{ border: 0 }}
-  allowFullScreen
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-  className="w-full h-96"
-></iframe>
+                <iframe
+                  src="https://www.google.com/maps?q=Pakistan&output=embed"
+                  width="100%"
+                  height="400"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full h-96"
+                ></iframe>
               </div>
 
               <div className="p-4 text-center">
                 <p className="text-muted-foreground">
-                  Serving clients globally from Dunyapur, Pakistan
+                  Serving clients globally from Pakistan
                 </p>
               </div>
             </CardContent>

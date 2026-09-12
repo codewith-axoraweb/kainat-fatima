@@ -1,3 +1,4 @@
+
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -20,51 +21,51 @@ import { ExternalLink } from "lucide-react"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Aisha Raouf's Portfolio - AI Copywriting & Content Strategy",
+  title: "Kainat Fatima's Portfolio - UX/UI Designer & Social Media Manager",
   description:
-    "Explore Aisha Raouf's professional portfolio featuring research-based articles, SEO writing, AI search content, lifestyle writing, technology writing, and content strategy.",
+    "Explore Kainat Fatima's professional portfolio featuring UX/UI design, web and mobile interface design, branding, social media design, wireframing, prototyping, and visual design.",
   keywords: [
-    "Aisha Raouf portfolio",
-    "AI Copywriter portfolio",
-    "Content Strategist portfolio",
-    "SEO writing",
-    "AI search SEO",
-    "blog writing portfolio",
-    "research writing",
-    "technical writing",
-    "content strategy",
-    "lifestyle writing",
-    "technology writing",
-    "skincare content",
-    "smart home technology",
-    "professional content writer",
+    "Kainat Fatima portfolio",
+    "Kainat Fatima UX UI Designer",
+    "UX UI Designer portfolio",
+    "UI UX Design",
+    "Figma Designer",
+    "Web Design",
+    "Mobile App Design",
+    "Brand Identity Design",
+    "Social Media Design",
+    "Graphic Design",
+    "Wireframing",
+    "Prototyping",
+    "User Research",
+    "Visual Design",
   ],
-  authors: [{ name: "Aisha Raouf" }],
+  authors: [{ name: "Kainat Fatima" }],
   openGraph: {
-    title: "Aisha Raouf's Portfolio - AI Copywriting & Content Strategy",
+    title: "Kainat Fatima's Portfolio - UX/UI Designer & Social Media Manager",
     description:
-      "View Aisha Raouf's professional portfolio showcasing SEO writing, research-based articles, technology writing, lifestyle content, and content strategy.",
+      "View Kainat Fatima's professional portfolio showcasing UX/UI design, branding, social media graphics, web design, mobile design, and visual design.",
     type: "website",
-    url: "https://storycup.vercel.app/portfolio",
+    url: "https://www.behance.net/buttkainat",
     images: [
       {
-        url: "/worldwideartical.jpg",
+        url: "/Portfolio 1.png",
         width: 1200,
         height: 630,
-        alt: "Aisha Raouf Content Writing Portfolio",
+        alt: "Kainat Fatima UX/UI Design Portfolio",
       },
     ],
-    siteName: "Aisha Raouf Portfolio",
+    siteName: "Kainat Fatima Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aisha Raouf's Portfolio - AI Copywriting & Content Strategy",
+    title: "Kainat Fatima's Portfolio - UX/UI Designer & Social Media Manager",
     description:
-      "Discover Aisha Raouf's portfolio showcasing SEO writing, research-based articles, technology writing, and content strategy.",
-    images: ["/worldwideartical.jpg"],
+      "Discover Kainat Fatima's portfolio featuring UX/UI design, branding, social media design, web and mobile interfaces.",
+    images: ["/Portfolio 1.png"],
   },
   alternates: {
-    canonical: "https://storycup.vercel.app/portfolio",
+    canonical: "https://www.behance.net/buttkainat",
   },
   robots: {
     index: true,
@@ -81,14 +82,19 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "CreativeWork",
-      name: "Aisha Raouf's Content Writing Portfolio",
+      name: "Kainat Fatima's UX/UI Design Portfolio",
       author: {
         "@type": "Person",
-        name: "Aisha Raouf",
+        name: "Kainat Fatima",
+        jobTitle: "UX/UI Designer",
       },
-      url: "https://storycup.vercel.app/portfolio",
+      url: "https://www.behance.net/buttkainat",
+      sameAs: [
+        "https://www.behance.net/buttkainat",
+        "https://www.linkedin.com/in/kainat-fatima-b6a931243/",
+      ],
       description:
-        "Aisha Raouf's portfolio showcases professional SEO writing, AI content, research-based articles, lifestyle writing, technology writing, and content strategy.",
+        "Kainat Fatima's portfolio showcases UX/UI design, web and mobile interface design, branding, social media design, wireframing, prototyping, and visual design.",
     }),
   },
 }
@@ -96,75 +102,162 @@ export const metadata: Metadata = {
 const projects = [
   {
     id: 1,
-    title: "How to Do Hard Work When You Have Zero Motivation",
+    title: "Brand Guidelines",
     description:
-      "A practical guide explaining how to get things done when motivation is low. The article explores discipline, small actions, environment design, time blocking, progress tracking, and building consistent habits without waiting for motivation.",
-    image:
-      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
-    category: "Blogs",
+      "A professional brand guidelines project focused on creating a consistent visual identity, including brand presentation, visual direction, typography, and design standards.",
+    image: "/Brand Guidelines.png",
+    category: "Branding",
     technologies: [
-      "Self-Improvement Writing",
-      "Research Writing",
-      "Blog Writing",
+      "Brand Identity",
+      "Brand Guidelines",
+      "Visual Design",
     ],
-    liveUrl:
-      "https://docs.google.com/document/d/1nSp2m-_b7hkCZAHYVxQ_W3ekwOtVWe9N/edit",
+    liveUrl: "https://www.behance.net/buttkainat",
     featured: true,
   },
 
   {
     id: 2,
-    title: "How AI Search Is Changing SEO in 2026",
+    title: "Eds",
     description:
-      "A comprehensive SEO article exploring how AI-powered search is changing the way people find information online, with practical strategies for search intent, conversational content, topical authority, natural language, trust, and AI search optimization.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
-    category: "Blogs",
+      "A creative visual design project demonstrating Kainat's approach to clean layouts, visual communication, and user-focused design principles.",
+    image: "/Eds.png",
+    category: "UI/UX Design",
     technologies: [
-      "SEO Writing",
-      "AI Content",
-      "Research Writing",
-      "Content Strategy",
+      "UI Design",
+      "Visual Design",
+      "User-Centered Design",
     ],
-    liveUrl:
-      "https://docs.google.com/document/d/1XX1mkBpttSlYi8ms2wNWvuuXS3wdnW8ye8Zr-rFBiWc/edit?tab=t.0",
+    liveUrl: "https://www.behance.net/buttkainat",
     featured: true,
   },
 
   {
     id: 3,
-    title: "How to Choose the Right Skincare Routine for Your Skin Type",
+    title: "Faek",
     description:
-      "An informative skincare guide explaining different skin types, how to identify your skin's needs, how to build a simple routine, choose suitable products, avoid common skincare mistakes, and maintain healthy and comfortable skin.",
-    image:
-      "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=1200&q=80",
-    category: "Blogs",
+      "A modern digital design concept created with a focus on clear visual hierarchy, engaging interface elements, and a polished user experience.",
+    image: "/Faek.png",
+    category: "UI/UX Design",
     technologies: [
-      "Lifestyle Writing",
-      "Research Writing",
-      "Health & Beauty Content",
+      "UI Design",
+      "UX Design",
+      "Visual Design",
     ],
-    liveUrl:
-      "https://docs.google.com/document/d/1BRCK13kP9cYiVKVBOzLymCqcnpj233Du/edit#heading=h.8egpw9vvi1bn",
+    liveUrl: "https://www.behance.net/buttkainat",
     featured: true,
   },
 
   {
     id: 4,
-    title: "The Ultimate Guide to Smart Home Technology for Every Homeowner",
+    title: "Golden Hire",
     description:
-      "A detailed technology guide explaining smart home systems, smart devices, home security, energy savings, automation, costs, device selection, safety, accessibility, and the future of smart home technology.",
-    image:
-      "https://images.unsplash.com/photo-1558008258-3256797b43f3?auto=format&fit=crop&w=1200&q=80",
-    category: "Blogs",
+      "A professional branding and digital design concept designed to communicate a strong and consistent visual identity through modern design elements.",
+    image: "/Golden Hire.png",
+    category: "Branding",
     technologies: [
-      "Technology Writing",
-      "Research Writing",
-      "Technical Content",
-      "Blog Writing",
+      "Brand Identity",
+      "Graphic Design",
+      "Visual Design",
     ],
-    liveUrl:
-      "https://docs.google.com/document/d/11DLfzt7kJmZJNdOz-rz3WYEXZLbS1P-wiOiDA0N7krI/edit?tab=t.0#heading=h.4dniz5hhcbol",
+    liveUrl: "https://www.behance.net/buttkainat",
+    featured: true,
+  },
+
+  {
+    id: 5,
+    title: "Golf Web Design",
+    description:
+      "A web design project focused on creating a clean, engaging, and user-friendly interface with a strong visual structure and responsive web experience.",
+    image: "/Golf Webdesign.png",
+    category: "UI/UX Design",
+    technologies: [
+      "Web Design",
+      "UI/UX Design",
+      "Responsive Design",
+    ],
+    liveUrl: "https://www.behance.net/buttkainat",
+    featured: true,
+  },
+
+  {
+    id: 6,
+    title: "IntrusionOps",
+    description:
+      "A digital interface design concept focused on usability, structured information architecture, clear navigation, and professional visual presentation.",
+    image: "/IntrusionOps.png",
+    category: "UI/UX Design",
+    technologies: [
+      "UX Design",
+      "UI Design",
+      "Information Architecture",
+    ],
+    liveUrl: "https://www.behance.net/buttkainat",
+    featured: true,
+  },
+
+  {
+    id: 7,
+    title: "Portfolio Design",
+    description:
+      "A portfolio design project showcasing a clean and professional visual presentation with emphasis on layout, hierarchy, usability, and personal branding.",
+    image: "/Portfolio 1.png",
+    category: "UI/UX Design",
+    technologies: [
+      "Portfolio Design",
+      "UI/UX Design",
+      "Visual Design",
+    ],
+    liveUrl: "https://www.behance.net/buttkainat",
+    featured: true,
+  },
+
+  {
+    id: 8,
+    title: "Digital Design Project",
+    description:
+      "A creative digital design project demonstrating visual communication, layout composition, and a user-focused approach to modern design.",
+    image: "/Screenshot 2026-09-11 215021.png",
+    category: "UI/UX Design",
+    technologies: [
+      "Digital Design",
+      "UI Design",
+      "Visual Design",
+    ],
+    liveUrl: "https://www.behance.net/buttkainat",
+    featured: true,
+  },
+
+  {
+    id: 9,
+    title: "Social Media Post Design",
+    description:
+      "A social media design project created to deliver engaging marketing visuals with clear messaging, strong composition, and brand-aligned creative direction.",
+    image: "/Social Media Post Design.png",
+    category: "Social Media",
+    technologies: [
+      "Social Media Design",
+      "Marketing Graphics",
+      "Graphic Design",
+    ],
+    liveUrl: "https://www.behance.net/buttkainat",
+    featured: true,
+  },
+
+  {
+    id: 10,
+    title: "Spent Mobile App",
+    description:
+      "A mobile app design concept focused on creating an intuitive user experience through clear user flows, organized screens, modern interface design, and usability-focused layouts.",
+    image: "/Spent Mobile App.png",
+    category: "UI/UX Design",
+    technologies: [
+      "Mobile App Design",
+      "UX Design",
+      "Wireframing",
+      "Prototyping",
+    ],
+    liveUrl: "https://www.behance.net/buttkainat",
     featured: true,
   },
 ]
@@ -172,9 +265,9 @@ const projects = [
 export default function PortfolioPage() {
   const categories = [
     "All",
-    "Blogs",
-    "Copywriting",
-    "Company Profiles",
+    "UI/UX Design",
+    "Branding",
+    "Social Media",
   ]
 
   return (
@@ -190,9 +283,9 @@ export default function PortfolioPage() {
           </h1>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A collection of my professional writing work including SEO content,
-            research-based articles, AI search content, lifestyle writing,
-            technology writing, and content strategy.
+            A collection of my professional design work including UX/UI
+            design, web and mobile interfaces, branding, visual design,
+            and social media graphics.
           </p>
         </section>
 
@@ -316,21 +409,25 @@ export default function PortfolioPage() {
               </h2>
 
               <p className="text-muted-foreground mb-6">
-                I'm always open to discussing new opportunities and meaningful
-                content projects.
+                I'm always open to discussing new design opportunities,
+                creative projects, and meaningful collaborations.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
 
                 <Button size="lg" asChild>
-                  <a href="mailto:aisharaouf230@gmail.com">
+                  <a href="mailto:buttknt@gmail.com">
                     Contact Me
                   </a>
                 </Button>
 
                 <Button size="lg" variant="outline" asChild>
-                  <Link href="/services">
-                    View Services
+                  <Link
+                    href="https://www.linkedin.com/in/kainat-fatima-b6a931243/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn
                   </Link>
                 </Button>
 
@@ -346,3 +443,4 @@ export default function PortfolioPage() {
     </div>
   )
 }
+
